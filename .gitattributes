@@ -1,0 +1,9 @@
+# Configuration for git attributes
+*.yaml linguist-detectable=false
+
+*.svg text
+
+docs/** linguist-vendored
+*.js linguist-detectable
+**/*.js linguist-detectable
+vendor/* linguist-vendored
